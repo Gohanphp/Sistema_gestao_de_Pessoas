@@ -1,17 +1,16 @@
 package br.com.sistema.repository;
-import br.com.sistemas.model.Pessoa;
+import br.com.sistema.model.Pessoa;
 import java.util.List;
 
 public interface PessoaRepository {
+        void salvar(Pessoa pessoa);
 
-    void salvar(Pessoa pessoa);
+        List<Pessoa> listarTodos();
 
-    List<Pessoa> listarTodos();
+        Pessoa buscarPorId(Integer id);
 
-    Pessoa buscarPorId(Integer id);
+        void atualizar(Pessoa pessoa);
 
-    void atualizarPessoa(Pessoa pessoa);
-
-    void deletar(Integer id);
+        void deletar(Integer id);
 
 }

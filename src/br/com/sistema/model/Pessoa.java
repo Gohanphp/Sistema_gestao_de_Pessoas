@@ -1,23 +1,23 @@
-package br.com.sistemas.model;
+package br.com.sistema.model;
 
 public class Pessoa {
-    private int id;
+    private Integer id;
     private String nome;
     private String cpf;
     private String email;
 
-public Pessoa(int id, String nome, String cpf, String email){
+public Pessoa(Integer id, String nome, String cpf, String email){
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
