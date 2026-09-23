@@ -47,4 +47,9 @@ public Pessoa(Integer id, String nome, String cpf, String email){
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return String.format("[ID: %d | Nome: %s | CPF: %s | Email: %s]", id, nome, cpf, email);
+    }
 }

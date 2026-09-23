@@ -45,7 +45,7 @@ public class Main {
     private static void exibirMenu() {
         System.out.println("\n===== SISTEMA DE GESTÃO DE PESSOAS =====");
         System.out.println("1 - Cadastrar Pessoa");
-        System.out.println("2 - Listar Todas");
+        System.out.println("2 - Listar Todas as Pessoas");
         System.out.println("3 - Buscar por ID");
         System.out.println("4 - Atualizar");
         System.out.println("5 - Excluir");
